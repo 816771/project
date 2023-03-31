@@ -1,0 +1,111 @@
+html,body {
+  background-color: black;
+  color: white;
+}
+
+#topbar {
+     list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  float:top;
+  top: 0;
+  left:0;
+  width: 100%;
+  opacity: 1;
+  z-index:69420;
+  transition-duration:1s;
+  transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+  color: white;
+    border-style: solid;
+   border-color: blue;
+  }
+
+#functionBar {
+  margin-top: 16px;
+  margin-left:0px;
+  border-style: solid;
+  float: left;
+  width: 25%;
+  height: 500px;
+  background-color: #black;
+  border-color: blue;
+  text-allign: center;
+   list-style-type: none;
+}
+
+#pain {
+  text-allign: center;
+  width: 100%;
+  background-color:black;
+  color: white;
+}
+
+#painTwo {
+  border: none;
+  background-color: #333;
+  color: white;
+}
+
+
+
+
+#plop {
+  border-style: solid;
+  border-color: blue;
+  width: 73%;
+  height: 500px;
+  z-index: 20;
+  color: white;
+  float: right;
+}
+
+#pic {
+  text-allign:center;
+  float:bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.switch {
+  position: relative;
+ display:inline-block;
+  width: 100%;
+  height: 30px;
+  text-allign: center;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  color:black;
+  text-allign:center;
+}
+
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
