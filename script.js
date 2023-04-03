@@ -3,7 +3,10 @@ function rob(){
   setTimeout(() => { document.getElementById("plop").innerHTML =  "";  }, 1000);
 }
 
-
+function alan() {
+  document.getElementById("plop").innerHTML =  "Grayson you are trash";
+  setTimeout(() => { document.getElementById("plop").innerHTML =  "";  }, 1000);
+}
 
 
 
