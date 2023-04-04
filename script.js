@@ -12,7 +12,7 @@ function rob(){
 
 async function alan() {
   document.getElementById("plop").innerHTML =  "Grayson you are trash";
-  await new Promise(done => setTimeout(() => done(), 5000));
+  await new Promise(done => setTimeout(() => done(), 1000));
   if(currentSlide == 0)
   document.getElementById("plop").innerHTML = "";
 else if(currentSlide == 1)
@@ -84,5 +84,6 @@ const buttonPressed = e => {
 for (let button of buttons) {
   button.addEventListener("click", buttonPressed);
 }
+
 
 
