@@ -1,23 +1,40 @@
+var currentSlide = 0;
+
+
+
+
+
+
 function rob(){
   document.getElementById("plop").innerHTML =  "Robbie you are trash";
   setTimeout(() => { document.getElementById("plop").innerHTML =  "";  }, 1000);
 }
 
-function alan() {
+async function alan() {
   document.getElementById("plop").innerHTML =  "Grayson you are trash";
-  setTimeout(() => { document.getElementById("plop").innerHTML =  "";  }, 1000);
+  await new Promise(done => setTimeout(() => done(), 5000));
+  if(currentSlide == 0)
+  document.getElementById("plop").innerHTML = "";
+else if(currentSlide == 1)
+  slideOne();
+else if(currentSlide == 2)
+  slideTwo();
 }
 
 
 
 
  function slideOne(){
- document.getElementById("plop").innerHTML =  "hola";
+  currentSlide = 1;
+
+ document.getElementById("plop").innerHTML = "L bozo";
    
     }
 
 
  function slideTwo(){
+  currentSlide = 2;
+
    document.getElementById("plop").innerHTML = "New text!";
     }
 
@@ -62,7 +79,6 @@ const result = document.getElementById("result");
 
 const buttonPressed = e => { 
   result.innerHTML = `ID of <em>${e.target.innerHTML}</em> is <strong>${e.target.id}</strong>`;
-  document.getElementById("plop").innerHTML =  "hola";
 }
 
 for (let button of buttons) {
