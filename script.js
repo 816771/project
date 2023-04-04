@@ -62,8 +62,11 @@ const result = document.getElementById("result");
 
 const buttonPressed = e => { 
   result.innerHTML = `ID of <em>${e.target.innerHTML}</em> is <strong>${e.target.id}</strong>`;
+  document.getElementById("plop").innerHTML =  "hola";
 }
 
 for (let button of buttons) {
   button.addEventListener("click", buttonPressed);
 }
+
+

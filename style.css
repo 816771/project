@@ -59,11 +59,24 @@ html,body {
   z-index: 20;
   color: white;
   float: right;
+  position: relative;
 }
 
+#pic {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 50%;
+  height: 25%
+}
 
-
-
+#pic2 {
+  position: absolute;
+  bottom: 0;
+  right:0;
+  width: 50%;
+  height: 25%
+}
 
 
 
