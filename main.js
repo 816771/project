@@ -28,7 +28,7 @@ else if(currentSlide == 2)
  function slideOne(){
   currentSlide = 1;
 
- document.getElementById("plop").innerHTML = "L bozo";
+ document.getElementById("plop").innerHTML = "";
    
     }
 
