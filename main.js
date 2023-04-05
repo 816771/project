@@ -5,9 +5,10 @@ var currentSlide = 0;
 
 
 
-function rob(){
-  document.getElementById("plop").innerHTML =  "Robbie you are trash";
-  setTimeout(() => { document.getElementById("plop").innerHTML =  "";  }, 1000);
+function Lbozo(){
+  var mysound = document.getElementById("mysound");
+      mysound.autoplay = 'true';
+      mysound.load();
 }
 
 async function alan() {
@@ -39,7 +40,7 @@ else if(currentSlide == 2)
     }
 
 
-
+   
 
 
 
