@@ -19,11 +19,12 @@ html, body {
     color: white;
     border-style: solid;
     border-color: blue;
+    text-align: center;
     
 }
 
 a:link, a:active, a:visited {
-    color: green;
+    color: white;
     background-color: transparent;
     text-decoration: none;
   }
