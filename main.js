@@ -29,6 +29,7 @@ else if(currentSlide == 2)
   currentSlide = 1;
 
  document.getElementById("plop").innerHTML = "";
+ getElementById("pic").scr = "ahmauud.jpg";
    
     }
 

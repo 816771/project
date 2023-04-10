@@ -72,7 +72,9 @@ html,body {
   bottom: 0;
   left:0;
   width: 50%;
-  height: 40%
+  height: 40%;
+  border-style: solid;
+  border-color:blue;
 }
 
 #pic2 {
@@ -80,7 +82,9 @@ html,body {
   bottom: 0;
   right:0;
   width: 50%;
-  height: 40%
+  height: 40%;
+  border-style: solid;
+  border-color:blue;
 }
 
 
