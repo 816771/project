@@ -31,5 +31,15 @@ a:link, a:active, a:visited {
 
   #theDis {
     text-align: center;
-    margin-top: 40vh;
+  }
+
+  #pass {
+    text-align: center;
+    margin-top: 25vh;
+  }
+
+  #sap {
+    text-align: center;
+    background-color: black;
+    color: white;
   }
