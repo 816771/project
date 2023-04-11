@@ -12,7 +12,7 @@ function Lbozo(){
 }
 
 async function alan() {
-  document.getElementById("plop").innerHTML =  "Grayson you are trash";
+  document.getElementById("plop").innerHTML =  "Grayson you are trash" + "<br>" + "L bozo";
   await new Promise(done => setTimeout(() => done(), 1000));
   if(currentSlide == 0)
   document.getElementById("plop").innerHTML = "";
@@ -21,6 +21,13 @@ else if(currentSlide == 1)
 else if(currentSlide == 2)
   slideTwo();
 }
+
+
+
+
+
+
+
 
 
 
