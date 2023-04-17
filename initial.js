@@ -14,7 +14,7 @@ else if(a == 2)
 
 function nopode() {
 
-    document.getElementById("flip").innerHTML = a + " " + password;
+    document.getElementById("flip").innerHTML = a ;
 }
 
 
