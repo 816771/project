@@ -9,6 +9,7 @@ function Lbozo(){
   var mysound = document.getElementById("mysound");
       mysound.autoplay = 'true';
       mysound.load();
+      document.getElementById("plop").innerHTML = "";
 }
 
 async function alan() {
@@ -20,6 +21,8 @@ else if(currentSlide == 1)
   slideOne();
 else if(currentSlide == 2)
   slideTwo();
+else if(currentSlide == 3)
+  slideThree();
 }
 
 
