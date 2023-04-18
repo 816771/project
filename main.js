@@ -35,7 +35,7 @@ else if(currentSlide == 2)
  function slideOne(){
   currentSlide = 1;
 
- document.getElementById("plop").innerHTML = "";
+ document.getElementById("plop").innerHTML = "In febuary of 2020 a fatal shooting occured causing the death of 25 year old Ahmaud Arbery causing a national debate over racial profiling and vigilantism." + "<br>" + "<br>" + "The jogger Ahamaud had been jogging in brunswick, Georgia";
     }
 
 
@@ -45,17 +45,14 @@ else if(currentSlide == 2)
    document.getElementById("plop").innerHTML = "New text!";
     }
 
+function slideThree() {
+  currentSlide = 3;
+
+  document.getElementById("plop").innerHTML = "";
+}
+
 
    
-
-
-
-
-
-
-
-
-
 
 
 
