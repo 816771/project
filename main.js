@@ -35,14 +35,14 @@ else if(currentSlide == 2)
  function slideOne(){
   currentSlide = 1;
 
- document.getElementById("plop").innerHTML = "In febuary of 2020 a fatal shooting occured causing the death of 25 year old Ahmaud Arbery causing a national debate over racial profiling and vigilantism." + "<br>" + "<br>" + "The jogger Ahamaud had been jogging in brunswick, Georgia";
+ document.getElementById("plop").innerHTML = "In febuary of 2020 a fatal shooting occured causing the death of 25 year old Ahmaud Arbery causing a national debate over racial profiling and vigilantism." + "<br>" + "<br>" + "The jogger Ahamaud had been jogging in brunswick, Georgia when Gregory McMichael, 65 years old, his son, Travis McMichael, 35 years old, and their neighbor, William Bryan Jr., 52 years old, had chased him in pickuptrucks and shot him." + "<br>" + "<br>" + "The men had used many things for defence such as calling it an attempt to make a citizen`s arrest as well as Travis McMichael saying he was acting in \"self defence\" and that Ahrbery had shot first and in his final moments had lunged at Travis" + "<br>" + "<br>" + "";
     }
 
 
  function slideTwo(){
   currentSlide = 2;
 
-   document.getElementById("plop").innerHTML = "New text!";
+   document.getElementById("plop").innerHTML = "";
     }
 
 function slideThree() {
