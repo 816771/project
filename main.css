@@ -46,6 +46,8 @@ html,body {
   float:right;
   position: relative;
   font-size: 25px;
+  margin-left: 3px;
+  margin-top: 16px;
 }
 
 
@@ -62,8 +64,6 @@ html,body {
   background-color: #333;
   color: white;
 }
-
-
 
 
 
@@ -88,12 +88,10 @@ html,body {
   border-color:blue;
 }
 
-
-
-
-
-
-
+#pic3 {
+  margin-left: 25%;
+  width: 50%;
+}
 
 
 
