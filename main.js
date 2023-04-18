@@ -9,7 +9,7 @@ function Lbozo(){
   var mysound = document.getElementById("mysound");
       mysound.autoplay = 'true';
       mysound.load();
-      document.getElementById("plop").innerHTML = "";
+      document.getElementById("plop").innerHTML = '<img src="552.png" alt="syrup" id="pic3" >';
 }
 
 async function alan() {
